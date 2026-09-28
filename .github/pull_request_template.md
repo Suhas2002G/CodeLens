@@ -11,10 +11,10 @@
 
 ## Testing & Verification
 <!-- Document how these changes were tested and verified. Include commands and outputs. -->
-- [ ] Unit tests pass (`pytest backend/tests/unit/`)
-- [ ] Integration tests pass (`pytest backend/tests/integration/`)
-- [ ] Linting passes (`ruff check backend/`)
-- [ ] Type checking passes (`mypy backend/app/`)
+- [ ] Unit tests pass (pytest backend/tests/unit/)
+- [ ] Integration tests pass (pytest backend/tests/integration/)
+- [ ] Linting passes (ruff check backend/)
+- [ ] Type checking passes (mypy backend/app/)
 
 ## Security & Performance Considerations
 - [ ] No untrusted repository code executed directly.
@@ -22,6 +22,7 @@
 - [ ] Secrets redacted before sending to external services.
 
 ## Pre-Merge Checklist
-- [ ] Target branch is `development` (for feature branches) or `master` (for release PRs).
-- [ ] Commits follow Conventional Commits standard (`agent/COMMIT_CONVENTION.md`).
+- [ ] Target branch is development (for feature branches) or master (for release PRs).
+- [ ] Commits follow Conventional Commits standard (agent/COMMIT_CONVENTION.md).
+- [ ] No emojis in PR title, PR description, or commit messages.
 - [ ] Documentation updated if architecture or configuration changed.

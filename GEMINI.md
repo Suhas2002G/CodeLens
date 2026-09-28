@@ -12,6 +12,7 @@ This document defines the strict operating procedures, git branching strategy, c
   * Feature branches are merged into `development` via Pull Requests after passing local tests and linting.
   * Only after `development` is verified, tested, and validated as stable is a PR created from `development` into `master`.
 * **Zero Assumption on Commands**: Always explain changes clearly and follow the agreed phase roadmap.
+* **Strictly No Emojis**: Never use emojis, decorative icons, or pictographs in commit messages, PR titles, or PR descriptions.
 
 ---
 

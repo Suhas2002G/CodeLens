@@ -4,4 +4,5 @@
 - Merge Order: `feature/*` -> `development` -> `master`.
 - Commits: Conventional Commits (`feat(scope): ...`, `fix(scope): ...`).
 - PRs: Must include summary, changes, testing evidence, and security verification.
+- Formatting: Never use emojis in commit messages, PR titles, or PR descriptions.
 - Code Quality: Python 3.11+, typed, Ruff-linted, Mypy-checked, tested with pytest.

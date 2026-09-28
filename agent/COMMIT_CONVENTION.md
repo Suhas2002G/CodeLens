@@ -19,6 +19,7 @@ This repository adheres strictly to the **Conventional Commits 1.0.0** specifica
 * **Imperative Mood**: Use imperative, present tense ("add" not "added", "fix" not "fixing", "implement" not "implemented").
 * **No Period**: Do not end the subject line with a period.
 * **Lowercase**: Type and scope must be lowercase.
+* **NO EMOJIS**: Never include emojis, icons, or decorative symbols in commit subjects or bodies.
 
 ---
 
@@ -71,14 +72,17 @@ Refs: #14
 
 ### Bad Commit Examples
 ```
-❌ git commit -m "fixed bugs"
+git commit -m "fixed bugs"
 (Vague, no type, no scope, past tense)
 
-❌ git commit -m "WIP"
+git commit -m "WIP"
 (Never commit work in progress without descriptive intent)
 
-❌ git commit -m "feat(webhook): Added new webhook signature verification."
-(Past tense "Added", ends with period)
+git commit -m "feat(webhook): added webhook verification"
+(Past tense "added", emojis/capitalization forbidden)
+
+git commit -m "feat(webhook): add signature verification"
+(Contains emojis - STRICTLY FORBIDDEN)
 ```
 
 ---
